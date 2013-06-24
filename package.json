@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Tom/test",
+  "author": {
+    "name": "tomhu",
+    "email": "tomhu@ekupeng.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tom/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tom/test/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Tom/test/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/test",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
